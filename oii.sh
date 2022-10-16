@@ -27,7 +27,7 @@ if [[ $yesno =~ "Y"|"y" ]]; then
     cat <<EOF > config.json
 {
     "log": {
-        "loglevel": "warning"
+        "loglevel": "none"
     },
     "inbounds": [
         {
